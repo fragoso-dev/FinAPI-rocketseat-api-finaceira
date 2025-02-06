@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
-    "install": "^0.13.0"
+    "express": "^4.21.2",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5"
   }
 }
